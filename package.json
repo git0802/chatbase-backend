@@ -1,0 +1,57 @@
+{
+  "name": "nodejs-express-sequelize-postgresql",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, Sequelize & PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "rest",
+    "api",
+    "postgresql"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.0.12",
+    "audit": "^0.0.6",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-and-time": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "google-auth-library": "^8.7.0",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "langchain": "^0.0.59",
+    "md5": "^2.3.0",
+    "mongoose": "^7.0.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth2": "^0.2.0",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "pinecone": "^0.1.0",
+    "pinecone-client": "^1.1.0",
+    "puppeteer": "^20.2.1",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
